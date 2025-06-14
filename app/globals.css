@@ -301,7 +301,7 @@
   }
   /* navbar */
   .navbar {
-    @apply h-[90px] border-b border-gray-20 flex items-center;
+    @apply h-[90px] border-b border-gray-20 flex items-center mb-10;
 
     nav {
       @apply flex items-center justify-between max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 w-full;
@@ -460,7 +460,7 @@
       @apply flex flex-col md:flex-row md:items-center gap-5 justify-between;
 
       .search {
-        @apply relative max-w-[500px] w-full;
+        @apply relative max-w-[500px] w-full mb-7;
 
         input {
           @apply border border-gray-20 py-2 pl-8 pr-5 text-dark-100 text-sm font-normal placeholder:text-gray-100 w-full rounded-[18px] focus:outline-pink-100;
